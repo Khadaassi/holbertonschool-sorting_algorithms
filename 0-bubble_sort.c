@@ -4,9 +4,11 @@
  * @array: array of integers
  * @size: size of array
  */
+
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, j;
+	size_t i;
+	size_t j;
 	int tmp;
 
 	if (array == NULL || size < 2)
