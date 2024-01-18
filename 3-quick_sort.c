@@ -4,6 +4,7 @@
  * swap - swaps two integers
  * @number_a: first integer
  * @number_b: second integer
+ * Return: Nothing
  */
 
 void swap(int *number_a, int *number_b)
@@ -57,6 +58,7 @@ int partition(int *array, size_t size, int left, int right)
  * @size: size of array
  * @left: left index
  * @right: right index
+ * Return: Nothing
  */
 
 void sort(int *array, size_t size, int left, int right)
@@ -76,6 +78,7 @@ void sort(int *array, size_t size, int left, int right)
  * quick_sort - quick sort algorithm
  * @array: array to sort
  * @size: size of array
+ * Return: Nothing
  */
 
 void quick_sort(int *array, size_t size)
