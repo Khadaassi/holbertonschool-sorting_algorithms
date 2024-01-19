@@ -6,6 +6,7 @@
  * @size: size of the array
  * Return: void
  */
+
 void shell_sort(int *array, size_t size)
 {
 	size_t gap = 1, i, j;
